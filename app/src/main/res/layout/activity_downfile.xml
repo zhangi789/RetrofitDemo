@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <Button
+        android:id="@+id/tv_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="文件下载" />
+    <TextView
+
+        android:id="@+id/tv_show_progresss"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@id/tv_download"
+        android:gravity="center"
+        android:text="进度%"
+        android:textSize="20sp" />
+
+
+    <Button
+
+        android:id="@+id/btn_file_upload"
+        android:text="文件上传"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tv_download"
+        android:layout_height="46dp" />
+
+
+
+
+
+
+
+
+</RelativeLayout>

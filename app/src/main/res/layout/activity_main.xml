@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bai.shanutec.cn.MainActivity">
+
+    <Button
+
+        android:id="@+id/btn_download"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="带进度条下载文件" />
+
+
+    <Button
+        android:id="@+id/btn_json"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@+id/btn_download"
+        android:text="post json请求" />
+
+
+    <Button
+        android:id="@+id/btn_form"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@+id/btn_json"
+        android:text="post 表单请求" />
+
+
+    <Button
+        android:id="@+id/btn_imag_upload"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@+id/btn_form"
+        android:text="表单上传图片携带参数" />
+
+</RelativeLayout>
